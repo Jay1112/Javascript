@@ -1,0 +1,56 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.main-class {
+	width: 50%;
+	border:1px solid red;
+	margin:20px auto;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+	#input-item {
+		margin:5px 0px;
+		width: 50%;
+		padding: 10px;
+		font-size: 20px;
+	}
+
+	#input-quantity {
+		margin:5px 0px;
+		width: 50%;
+		padding: 10px;
+		font-size: 20px;
+	}
+
+	#input-price {
+		margin:5px 0px;
+		width: 50%;
+		padding: 10px;
+		font-size: 20px;
+	}
+
+	#add {
+		margin:10px;
+		padding: 10px;
+		font-size: 20px;
+	}
+
+.productList {
+	padding: 10px;
+	list-style: none;
+	margin:20px auto;
+	width: 50%;
+	border:1px solid red;
+}
+
+	.productList li {
+		font-size: 20px;
+		text-align: center;
+	}
+
