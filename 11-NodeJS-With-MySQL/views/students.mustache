@@ -1,0 +1,17 @@
+<table border="1">
+	{{#rows}}
+		<tr>
+			<td>{{ id }}</td>
+			<td>{{ name }}</td>
+			<td>{{ address }}</td>
+			<td>
+				<form action="/students/delete/{{ id }}" method="POST">
+					<button type="submit">Delete</button>
+				</form>
+			</td>
+			<td>
+				<a href="/student/edit/{{id}}">Edit</a>
+			</td>
+		</tr>
+	{{/rows}}
+</table>
